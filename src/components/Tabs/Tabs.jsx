@@ -25,7 +25,7 @@ export const Tabs = ({ tabs, activeTabId, onTabSelected }) => {
         ))}
       </ul>
       <div className="block" data-cy="TabContent">
-        {currentTab.id}
+        {currentTab.content}
       </div>
     </div>
   </div>;
